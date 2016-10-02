@@ -17,13 +17,13 @@ Humidity - which is in % <br />
 Build the project by the following commands
 
 $ mvn compile <br />
-$ mvn package <br />
+$ mvn clean package -DskipTests <br />
 $ java -jar "path to this jar - \target\sdt-toy-simulator-2.0.3-SNAPSHOT-jar-with-dependencies.jar" "path/of/input text file" <br />
 
-<h4>Note: </h4> If a text file is not given as an input then by default few locations names have been given as input hence data pertaining to those will be printed.
+
 
 <h3>Input:</h3>
-
+Sample input file can be found in src/test/resources/default directory.
 The input for the simulator is a text file - A list with set of locations or lat,long values. For Example refer to the below sample <br /> 
 
 22.54994,88.37158 <br />
