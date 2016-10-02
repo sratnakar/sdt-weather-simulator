@@ -1,0 +1,16 @@
+kolkata
+hyderabad
+dubai
+punjab
+Sydney
+Melbourne
+kolkata
+22.54994,88.37158
+7.0077,100.47053
+hyderabad
+55.74164,37.60506
+dubai
+punjab
+32.1685,-95.66919
+Sydney
+Melbourne
