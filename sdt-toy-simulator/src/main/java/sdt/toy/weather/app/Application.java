@@ -60,5 +60,13 @@ public class Application {
 		return weatherDetails;
 
 	}
+	public static String getlocLatLong(YahooWeatherService service, Channel channel) throws Exception{
+		String city = channel.getLocation().getCity();
+		float geoLat = channel.getItem().getGeoLat();
+		float geoLong = channel.getItem().getGeoLong();
+		double elevation = service.getElevation(geoLat, geoLong);
+		String locLatLong = city + "|" + geoLat + "," + geoLong + "," + elevation;
+		return locLatLong;	
+	}
 
 }
