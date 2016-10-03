@@ -19,7 +19,7 @@ Humidity - which is in % <br />
 Build the project by the following commands
 
 $ mvn compile <br />
-$ mvn clean package -DskipTests <br />
+$ mvn clean package <br />
 $ java -jar "path to this jar - \target\sdt-toy-simulator-2.0.3-SNAPSHOT-jar-with-dependencies.jar" "path/of/input text file" <br />
 
 
